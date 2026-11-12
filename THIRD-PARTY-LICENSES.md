@@ -9,6 +9,10 @@ Licencia Pexels: https://www.pexels.com/license/
 
 Se usa fotografía de stock en una demostración ficticia; no implica relación ni aval de las personas fotografiadas.
 
+## Secuencia del hero
+
+- `assets/forja-carga-portada.webp` y `assets/forja-carga-fotogramas.webp`: fotogramas recortados, ajustados y comprimidos a partir del video de Tima Miroshnichenko, https://www.pexels.com/video/person-inserting-weight-plate-on-a-lifting-bar-5319998/, bajo licencia Pexels.
+
 ## Tipografía
 
 Anton y Manrope se cargan desde Google Fonts. Licencias SIL Open Font License disponibles en sus distribuciones:

@@ -14,7 +14,9 @@ Publicación: https://tomyfleubry.github.io/demo-vidriera-gimnasio/
 
 ## Implementación
 
-HTML, CSS y JavaScript en `index.html`, sin build. GitHub Pages publica `main` desde `/`. GSAP, ScrollTrigger y Lenis usan versiones fijas por CDN. La agenda se mejora con JavaScript: sin él se leen los seis días completos. Acordeones nativos. Movimiento reducido respetado.
+HTML, CSS y lógica de la agenda en `index.html`, sin build. GitHub Pages publica `main` desde `/`. GSAP, ScrollTrigger y Lenis usan versiones fijas por CDN. La agenda se mejora con JavaScript: sin él se leen los seis días completos. Acordeones nativos.
+
+`forja-motion.js` reproduce el gesto de cargar la barra al desplazar la portada, usando 40 fotogramas WebP. La foto inicial se muestra con movimiento reducido o si la secuencia no está disponible. La fuente y los parámetros de edición están en [DESIGN.md](DESIGN.md).
 
 Los enlaces preparan mensajes; la página no envía mensajes, confirma reservas ni procesa pagos. No hay base de datos, secretos ni automatizaciones.
 
