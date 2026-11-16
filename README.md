@@ -1,23 +1,9 @@
 # Forja · Vidriera de gimnasio
 
-Página de demostración de Nexvia IA con marca, personas y datos ficticios.
+[Ver la demo](https://tomyfleubry.github.io/demo-vidriera-gimnasio/)
 
-Publicación: https://tomyfleubry.github.io/demo-vidriera-gimnasio/
+Vidriera conceptual de Nexvia IA. La portada combina un montaje de entrenamiento con una palabra que cambia. El recorrido incluye un bloque tipográfico, entrenamientos, el club de Colegiales y una galería.
 
-## Contenido
+La demo es estática. Abrí `index.html` en un navegador para verla. GitHub Pages publica el contenido de `main` desde la raíz del repositorio. Las fotos, el video y las fuentes están alojados junto a la página.
 
-- Agenda semanal con 28 clases, selector de lunes a sábado y pedido por clase, día y hora.
-- Seis actividades, tres planes con precios de ejemplo, proceso de inicio y seis preguntas frecuentes.
-- 34 enlaces al número ficticio `https://wa.me/5491100000000`: 28 clases, 3 planes, hero, cierre y flotante.
-- Logo oficial de WhatsApp en un símbolo SVG reutilizado, `noindex, nofollow` y aviso explícito de demostración.
-- Fotografías libres de Pexels optimizadas a WebP. Fuentes y selección en [DESIGN.md](DESIGN.md).
-
-## Implementación
-
-HTML, CSS y lógica de la agenda en `index.html`, sin build. GitHub Pages publica `main` desde `/`. GSAP, ScrollTrigger y Lenis usan versiones fijas por CDN. La agenda se mejora con JavaScript: sin él se leen los seis días completos. Acordeones nativos.
-
-`forja-motion.js` reproduce el gesto de cargar la barra al desplazar la portada, usando 40 fotogramas WebP. La foto inicial se muestra con movimiento reducido o si la secuencia no está disponible. La fuente y los parámetros de edición están en [DESIGN.md](DESIGN.md).
-
-Los enlaces preparan mensajes; la página no envía mensajes, confirma reservas ni procesa pagos. No hay base de datos, secretos ni automatizaciones.
-
-Esta entrega no incluye video de recorrido, por pedido explícito de Tomas.
+Las licencias y los créditos están en [THIRD-PARTY-LICENSES.md](THIRD-PARTY-LICENSES.md).
